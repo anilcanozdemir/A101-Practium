@@ -5,24 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a70b9a-bebd-4e48-944b-8803f17ea1d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testRunners/androidRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testRunners/chromeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/features.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/pages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/android/stepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chrome/features.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chrome/pages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/addressAndCargoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/loginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/paymentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/addressAndCargoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/loginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/paymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/features/firstCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/features/firstCase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/cartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/cartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/checkoutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/productPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/productPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/searchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/searchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/cartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/cartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/checkoutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/productPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/productPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/searchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/searchPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +51,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/white/Documents/GitHub/A101-Practium/src/test/java/chrome"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/white/Documents/GitHub/A101-Practium/src/test/java/android/stepDefinitions&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\white\Documents\GitHub\A101-Practium\src\test\java\android\stepDefinitions" />
+      <recent name="C:\Users\white\Documents\GitHub\A101-Practium\src\test\java\chrome\features" />
       <recent name="C:\Users\white\Documents\GitHub\A101-Practium\src\test\java\chrome" />
+      <recent name="C:\Users\white\Documents\GitHub\A101-Practium\src\test\java\android" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\white\Documents\GitHub\A101-Practium\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chrome.stepDefinitions" />
       <recent name="android" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

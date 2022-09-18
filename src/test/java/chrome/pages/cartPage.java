@@ -1,4 +1,9 @@
 package chrome.pages;
 
-public class cartPage {
+public class cartPage extends Header{
+    public void ProceedToCheckout() {
+    }
+
+    public void checkCartPage() {
+    }
 }
