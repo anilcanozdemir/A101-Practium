@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -16,7 +17,7 @@ public class ElementHelper {
     WebDriver driver;
     WebDriverWait wait;
     Actions actions;
-    private ElementHelper elementHelper = null;
+    private static ElementHelper elementHelper = null;
 
     private ElementHelper() {
         driver = DriverFactory.getDriver();
@@ -24,7 +25,7 @@ public class ElementHelper {
         actions = new Actions(driver);
     }
 
-    public ElementHelper getInstance() {
+    public static ElementHelper getInstance() {
         if (elementHelper == null) elementHelper = new ElementHelper();
         return elementHelper;
     }
@@ -91,4 +92,34 @@ public class ElementHelper {
         return element.getText().contains(text);
     }
 
+    public void click(WebElement element) {
+
+        wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+
+    }
+
+
+    public WebElement findElement(By parentElement, By key) {
+
+        return presenceElement(parentElement, key);
+    }
+    public WebElement presenceElement(By parent, By key) {
+        return wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(parent, key));
+    }
+
+
+    public void gotoHref(String href) {
+        driver.get(href);
+        wait.until(ExpectedConditions.urlContains(href));
+    }
+    public void sendKeys(By key, String text) {
+        findElement(key).click();
+        findElement(key).sendKeys(text);
+    }
+
+    public void selectDropDown(By dropDown, String choice) {
+        findElement(dropDown).click();
+        Select select=new Select(findElement(dropDown));
+        select.selectByVisibleText(choice);
+    }
 }
