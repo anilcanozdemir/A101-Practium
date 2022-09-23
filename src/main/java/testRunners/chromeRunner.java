@@ -7,8 +7,8 @@ import org.testng.annotations.*;
 
 @CucumberOptions(
         features = {"src/test/java/chrome/features"},
-        glue = {"android/stepDefinitions", "util"},
-        tags = "",
+        glue = {"chrome/stepDefinitions", "util"},
+        tags = "Alternative",
         plugin = {
                 "summary", "pretty", "html:Reports/CucumberReport/chromeReports/chromeReports.html",
                 "json:Reports/CucumberReport/chromeReports/chromeReport",

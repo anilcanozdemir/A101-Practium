@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 
 @CucumberOptions(
         features = {"src/test/java/android/features"},
-        glue = {"chrome/stepDefinitions", "util"},
+        glue = {"android/stepDefinitions", "util"},
         tags = "",
         plugin = {
                 "summary", "pretty", "html:Reports/CucumberReport/androidReports/androidReports.html",

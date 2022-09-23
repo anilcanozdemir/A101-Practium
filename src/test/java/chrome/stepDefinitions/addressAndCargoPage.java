@@ -16,9 +16,9 @@ public class addressAndCargoPage {
         addressAndCargoPage.clickToSaveAndProceedButton();
     }
 
-    @When("Add address as {string} --{string} -- {string} -- {string} -- {string} -- {string} -- {string} -- {string} -- {string}")
-    public void addAddressAs(String AddressName, String CustomerName, String CustomerSurname, String Phone, String City, String County, String Distrct, String AddressDetails, String PostalCode) {
-        addressAndCargoPage.addAddressAs(AddressName,CustomerName,CustomerSurname,Phone,City,County,Distrct,AddressDetails,PostalCode);
+    @When("Add address as {string} --{string} -- {string} -- {string} -- {string} -- {string} -- {string} -- {string}")
+    public void addAddressAs(String AddressName, String CustomerName, String CustomerSurname, String Phone, String City, String Township, String District, String AddressDetails) {
+        addressAndCargoPage.addAddressAs(AddressName,CustomerName,CustomerSurname,Phone,City,Township,District,AddressDetails);
     }
 
     @And("Select Cargo as {string}")

@@ -13,4 +13,8 @@ public class Header {
     }
 
 
+    @When("Select Category as {string} -- {string} -- {string} without click")
+    public void selectCategoryAsWithoutClick(String mainCategory, String category, String subCategory) {
+        header.selectCategoryWithoutClick(mainCategory, category, subCategory);
+    }
 }

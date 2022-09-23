@@ -21,8 +21,8 @@ public class loginPage {
     }
 
     @When("Enter Email {string} and click to ContinueButton")
-    public void enterEmailAndClickToContinueButton(String arg0) {
-        loginPage.enterEmail();
+    public void enterEmailAndClickToContinueButton(String email) {
+        loginPage.enterEmail(email);
         loginPage.clickToContinueButton();
     }
 

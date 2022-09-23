@@ -16,8 +16,6 @@ public class ConfigReader {
             FileInputStream fileInputStream = new FileInputStream("./src/test/resources/config.properties");
             properties.load(fileInputStream);
 
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
