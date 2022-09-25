@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 
 public class productPage {
     chrome.pages.productPage productPage = new chrome.pages.productPage();
+
     @Then("should see ProductPage")
     public void shouldSeeProductPage() {
         productPage.checkProductPage();
