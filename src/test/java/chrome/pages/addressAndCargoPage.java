@@ -20,14 +20,16 @@ public class addressAndCargoPage extends Header {
     By SaveAddress = By.xpath("//*[@id=\"js-orders-modal-container\"]/div/div[2]/form/button[1]");
     By address = By.className("title");
     By cargoCheck = By.className("check");
-
+    By saveAndProceed = By.cssSelector("body > section > section > div > div.checkout-addresses.js-tab-content.active > div > div.col-sm-9 > div > div.continue > form > div.cargo > button");
+    By saveButton = By.cssSelector("button[type='button']");
+    By form = By.cssSelector("#js-orders-modal-container > div > div.modal-content > form");
 
     public void checkAddressAndCargoPage() {
         elementHelper.findElement(pageCheckout);
     }
 
     public void clickToSaveAndProceedButton() {
-        elementHelper.click(By.cssSelector("body > section > section > div > div.checkout-addresses.js-tab-content.active > div > div.col-sm-9 > div > div.continue > form > div.cargo > button"));
+        elementHelper.click(saveAndProceed);
     }
 
     public void addAddressAs(String addressName, String customerName, String customerSurname, String phone, String city, String township, String district) {
@@ -45,12 +47,14 @@ public class addressAndCargoPage extends Header {
         String generatedString = new String(array, StandardCharsets.UTF_8);
         elementHelper.sendKeys(this.addressDetails, generatedString);
         elementHelper.mouseHoverOnElement(SaveAddress);
-       elementHelper.clickWithJS( elementHelper.findElement(By.cssSelector("#js-orders-modal-container > div > div.modal-content > form"),By.cssSelector("button[type='button']")));
+
+
+        elementHelper.clickWithJS(elementHelper.findElement(form, saveButton));
 
     }
 
     public void selectCargoAs(String cargoName) {
-        elementHelper.click(elementHelper.findElementByText(cargoCheck," "+ cargoName+" "));
+        elementHelper.click(elementHelper.findElementByText(cargoCheck, " " + cargoName + " "));
     }
 
     public void selectAddress(String addressName) {

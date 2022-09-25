@@ -6,14 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="70a70b9a-bebd-4e48-944b-8803f17ea1d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/androidRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/features/firstCase.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/chrome/features/firstCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/features/firstCase.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/addressAndCargoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/addressAndCargoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/cartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/cartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/loginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/paymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/paymentPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/addressAndCargoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/addressAndCargoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testSuites/Android.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/cartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/cartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/loginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/paymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/paymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/productPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/productPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/searchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/searchPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
