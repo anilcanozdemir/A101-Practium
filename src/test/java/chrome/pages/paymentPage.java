@@ -1,6 +1,9 @@
 package chrome.pages;
 
-public class paymentPage {
+import org.openqa.selenium.By;
+
+public class paymentPage  extends Header{
     public void checkPaymentPage() {
+        elementHelper.findElement(By.className("checkout-payment"));
     }
 }

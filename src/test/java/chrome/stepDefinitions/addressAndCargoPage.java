@@ -16,13 +16,18 @@ public class addressAndCargoPage {
         addressAndCargoPage.clickToSaveAndProceedButton();
     }
 
-    @When("Add address as {string} --{string} -- {string} -- {string} -- {string} -- {string} -- {string} -- {string}")
-    public void addAddressAs(String AddressName, String CustomerName, String CustomerSurname, String Phone, String City, String Township, String District, String AddressDetails) {
-        addressAndCargoPage.addAddressAs(AddressName,CustomerName,CustomerSurname,Phone,City,Township,District,AddressDetails);
+    @When("Add address as {string} --{string} -- {string} -- {string} -- {string} -- {string} -- {string}")
+    public void addAddressAs(String AddressName, String CustomerName, String CustomerSurname, String Phone, String City, String Township, String District ) {
+        addressAndCargoPage.addAddressAs(AddressName,CustomerName,CustomerSurname,Phone,City,Township,District);
     }
 
     @And("Select Cargo as {string}")
     public void selectCargoAs(String cargoName) {
         addressAndCargoPage.selectCargoAs(cargoName);
+    }
+
+    @And("Select Address as {string}")
+    public void selectAddressAs(String addressName) {
+        addressAndCargoPage.selectAddress(addressName);
     }
 }
