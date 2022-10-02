@@ -20,12 +20,13 @@ Feature: A101 PRACTIUM
     Then should see EmailContainer
     When Enter Email "<Email>" and click to ContinueButton
     Then should see AddressAndCargoPage
-    When Add address as "<AddressName>" --"<CustomerName>" -- "<CustomerSurname>" -- "<Phone>" -- "<City>" -- " <County>" -- "<Distrct>"
+    When Add address as "<AddressName>" --"<CustomerName>" -- "<CustomerSurname>" -- "<Phone>" -- "<City>" -- " <County>" -- "<Distrct>" -- "<AddressDetails>"
+    And Select Cargo as "<Cargo>"
     And Click to SaveAndProceedButton
     Then should see PaymentPage
     Examples:
-      | MainCategory     | Category       | Sub-Category  | ProductName                                | Value | Email              | AddressName | CustomerName | CustomerSurname | Phone      | City  | County    | Distrct                 |
-      | Giyim & Aksesuar | Kadın İç Giyim | Dizaltı Çorap | Penti Kadın 50 Denye Pantolon Çorabı Siyah | SİYAH | customer@gmail.com | asdasd      | Example      | Customer        | 5000000000 | BURSA | OSMANGAZİ | EMEK ADNAN MENDERES MAH |
+      | MainCategory     | Category       | Sub-Category  | ProductName                                | Value | Email              | AddressName | CustomerName | CustomerSurname | Phone      | City  | County    | Distrct                 | AddressDetails                          | Cargo  |
+      | Giyim & Aksesuar | Kadın İç Giyim | Dizaltı Çorap | Penti Kadın 50 Denye Pantolon Çorabı Siyah | SİYAH | customer@gmail.com | asdasd      | Example      | Customer        | 5000000000 | BURSA | OSMANGAZİ | EMEK ADNAN MENDERES MAH | asdasfsad asdasfsad asdfsadaf asdafsada | Scotty |
 
   @Main @WithOutSingUp @WithOutAuth @Alternative
   Scenario Outline:Customer search,select,add to cart and proceeds to Checkout Alternative

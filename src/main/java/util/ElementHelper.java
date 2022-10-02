@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Objects;
 
 
+
 public class ElementHelper {
 
     private static ElementHelper elementHelper = null;
@@ -113,11 +114,13 @@ public class ElementHelper {
     }
 
     public WebElement presenceElement(By parent, By key) {
-        try {
+        try{
             return wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(parent, key));
-        } catch (TimeoutException e) {
-            return null;
         }
+       catch (TimeoutException e)
+       {
+           return null;
+       }
     }
 
 
@@ -138,17 +141,21 @@ public class ElementHelper {
             Select select = new Select(findElement(dropDown));
             System.out.println(select.getOptions().get(1).getText());
             select.selectByVisibleText(choice.trim());
-            if (!Objects.equals(select.getFirstSelectedOption().getText(), choice.trim())) {
-                selectDropDown(dropDown, choice);
+            if(!Objects.equals(select.getFirstSelectedOption().getText(), choice.trim()))
+            {
+                selectDropDown(dropDown,choice);
             }
-        } catch (StaleElementReferenceException e) {
-            selectDropDown(dropDown, choice);
+        }catch (StaleElementReferenceException e)
+        {
+            selectDropDown(dropDown,choice);
         }
 
     }
 
-
-    public void clickWithJS(WebElement element) {
+    public void clickwithAction(WebElement element) {
+        actions.moveToElement(element).click().perform();
+    }
+    public  void clickWithJS(WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
     }
