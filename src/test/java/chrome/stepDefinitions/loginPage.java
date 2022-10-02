@@ -5,7 +5,6 @@ import io.cucumber.java.en.When;
 
 public class loginPage {
     chrome.pages.loginPage loginPage = new chrome.pages.loginPage();
-
     @Then("should see LoginPage")
     public void shouldSeeLoginPage() {
         loginPage.checkLoginPage();

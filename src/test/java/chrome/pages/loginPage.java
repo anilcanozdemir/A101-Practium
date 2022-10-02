@@ -7,7 +7,7 @@ public class loginPage extends Header {
     By proceedToCheckOutbtn = By.className("js-proceed-to-checkout-btn");
     By guestForm = By.className("guest-form");
     By submitButton = By.cssSelector("body > section > div.page-auth > div > div.row.js-block-email > div > div > form > button");
-    By edtEmail = By.name("user_email");
+    By edtEmail=By.name("user_email");
 
     public void checkLoginPage() {
         elementHelper.findElement(pageAuth);
@@ -23,7 +23,7 @@ public class loginPage extends Header {
     }
 
     public void enterEmail(String email) {
-        elementHelper.sendKeys(edtEmail, email);
+        elementHelper.sendKeys(edtEmail,email);
     }
 
     public void clickToContinueButton() {

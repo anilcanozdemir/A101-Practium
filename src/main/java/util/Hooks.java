@@ -14,14 +14,13 @@ public class Hooks {
 
     WebDriver driver;
     Properties properties;
-
     @Before
     public void before() {
         String browser;
-        try {
-            browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
-        } catch (Exception e) {
-            browser = "Chrome";
+        try{ browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");}
+        catch (Exception e)
+        {
+            browser="Chrome";
         }
 
         properties = ConfigReader.initialize_Properties();
@@ -38,6 +37,6 @@ public class Hooks {
 
     @After
     public void after() {
-        driver.quit();
+       //  driver.quit();
     }
 }
