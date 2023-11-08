@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a70b9a-bebd-4e48-944b-8803f17ea1d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/androidRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/android/features/firstCase.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/features/firstCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/features/firstCase.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/addressAndCargoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/addressAndCargoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/pages/paymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/pages/paymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/addressAndCargoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome/stepDefinitions/addressAndCargoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testSuites/Android.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="70a70b9a-bebd-4e48-944b-8803f17ea1d1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2EqTg2pBxFApo0JziYbgRUNokdU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,19 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/white/Documents/GitHub/A101-Practium/src/test/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowBuild.ShowToolbar": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/white/Documents/GitHub/A101-Practium/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\white\Documents\GitHub\A101-Practium\src\test\resources" />
@@ -155,8 +149,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663322225700</updated>
+      <workItem from="1699430720818" duration="237000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
