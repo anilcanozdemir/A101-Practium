@@ -111,17 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C:/Users/white/Documents/GitHub/A101-Practium/src/test/resources/testSuites/Chrome.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="A101-Practium" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testSuites/Chrome.xml" />
